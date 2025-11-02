@@ -1,0 +1,7 @@
+<script>
+  // ✅ Only allow if admin is logged in
+  if (localStorage.getItem('adminLogged') !== 'true') {
+    alert("Access Denied! Please login as Admin.");
+    window.location.href = 'C:\Users\DELL\Desktop\ARTIFY  Attendance\admi\admin-login.html';
+  }
+</script>
